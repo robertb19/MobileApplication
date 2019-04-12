@@ -20,3 +20,9 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function personalInfo() {
+	
+	document.getElementById('personal-information').innerHTML += '<ol><li>Robert B</li><li>Krakow</li><li>30-686</li><li>Polska</li></ol>';
+	
+}
